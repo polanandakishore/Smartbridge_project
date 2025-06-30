@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - NutriGaze</title>
+      <link rel="stylesheet" href="/home/mukeshini/Downloads/project/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff;
+      color: #444;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 15px;
+      background-color: #ffe3ec;
+      color: #e91e63;
+      border-radius: 20px;
+      font-size: 13px;
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-top: 20px;
+      color: #222;
+    }
+
+    h1 span {
+      color: #e91e63;
+    }
+
+    p.subheading {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      gap: 40px;
+      text-align: left;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .column {
+      flex: 1 1 400px;
+      max-width: 500px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 20px;
+      padding-left: 30px;
+      position: relative;
+      color: #555;
+    }
+
+    li::before {
+      content: "✔";
+      color: #e91e63;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 25px;
+      color: #e91e63;
+      border: 2px solid #e91e63;
+      border-radius: 25px;
+      background: transparent;
+      font-size: 15px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #ffe3ec;
+    }
+  </style>
+</head>
+<body>
+	<header>
+        <div class="logo">NUTRIGAZE</div>
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="predict.html">Predict</a>
+                <a href="contact.html">Contact</a>
+        </nav>
+    </header>	
+	
+	
+  <div class="badge">ABOUT</div>
+  <h1>Learn More <span>About Us</span></h1>
+  <p class="subheading">
+    NutriGaze is a pioneering organization dedicated to enhancing the quality and<br>
+    safety of your fruits and vegetables.
+  </p>
+
+  <div class="container">
+    <div class="column">
+      <p>
+        Our team comprises innovative scientists, technologists, and agricultural experts committed to leveraging advanced detection technologies to ensure the produce you consume is fresh, healthy, and nutritious.
+      </p>
+      <ul>
+        <li>Comprehensive analysis and grading of fruits and vegetables based on ripeness and nutritional content.</li>
+        <li>Continuous monitoring of produce freshness from farm to table.</li>
+        <li>Innovative solutions to minimize food waste by identifying and separating rotten produce early in the supply chain.</li>
+      </ul>
+    </div>
+    <div class="column">
+      <p>
+        Our team is our greatest asset. We are a diverse group of experts in fields such as agricultural science, data analytics, software engineering, and food technology. Together, we bring a wealth of knowledge and experience to tackle the challenges of food quality and safety.
+      </p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+
+</body>
+</html>
+

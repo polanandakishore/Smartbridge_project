@@ -1,0 +1,33 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="/home/mukeshini/Downloads/project/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">NUTRIGAZE</div>
+    <nav>
+    	<a href="index.html">Home</a>
+    	<a href="about.html">About</a>
+    	<a href="predict.html">Predict</a>
+    	<a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section class="result">
+    <h2>FreshEye Detection Result</h2>
+    {% if prediction %}
+      <p><strong>Prediction:</strong> {{ prediction }}</p>
+      <img src="{{ image_url }}" alt="Uploaded Image" width="300">
+    {% else %}
+      <p>No prediction available.</p>
+    {% endif %}
+    <br><br>
+    <a href="/predict" class="btn">Try Another Image</a>
+  </section>
+</body>
+</html>
+

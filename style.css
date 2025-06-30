@@ -1,0 +1,92 @@
+/* <!-- style.css --> */
+/* <style>\\ */
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  header {
+    background-color: #111;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  header nav a:hover {
+    color: #f24e5f;
+  }
+
+  .hero {
+    background: url('fruits\ and\ vegetables.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+  }
+
+  .btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  section {
+    padding: 50px;
+  }
+
+  .about, .predict, .contact {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  input[type=file], input[type=text], textarea {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .predict button, .contact button {
+    padding: 10px 20px;
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+  }
+/* </style> */

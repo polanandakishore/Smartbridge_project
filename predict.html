@@ -1,0 +1,42 @@
+<!-- predict.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predict</title>
+  <!--
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  -->
+   <link rel="stylesheet" href="/home/mukeshini/Downloads/project/static/style.css"> 
+
+</head>
+<body>
+  <header>
+    <div class="logo">NUTRIGAZE</div>
+    
+    <nav>
+ 
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="predict.html">Predict</a>
+      <a href="contact.html">Contact</a>
+ 	</nav>
+    
+ 
+  </header>
+  <section class="predict">
+    <h2>Image Classification</h2>
+     <form action="result.html" method="post" enctype="multipart/form-data"> 
+
+  <!-- 
+  		<form action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+  -->
+      <label>Upload Your Image:</label>
+      <input type="file" name="image" required>
+      <button type="submit">Predict</button>
+    </form>
+  </section>
+</body>
+</html>
+
